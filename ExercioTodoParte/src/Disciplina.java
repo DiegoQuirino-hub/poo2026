@@ -49,12 +49,12 @@ public class Disciplina {
 
     public void matricularAluno(Aluno a) {
         alunos.add(a);
-    }
+    }//Agregação: recebe o aluno que já existe fora.
 
     public void criarAvaliacao(int id, String nome) {
         Avaliacao av = new Avaliacao(id, nome);  // Cria aqui
         avaliacoes.add(av);
-    }
+    }//COmposição - Cria a avaliação dentro da disciplina
 
     @Override
     public String toString() {

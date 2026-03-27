@@ -13,7 +13,7 @@ public class PlacarEletronico {
         this.periodoQuarto = 1;
     }
     public void registrarPonto(String time, int tipo){
-        if(time=="Casa"){
+        if(time.equalsIgnoreCase("Casa")){
             if(tipo==1){
                 this.pontosCasa += 1;
                 System.out.println(timeCasa + " Marcou 1 ponto de lance livre ");
@@ -24,7 +24,7 @@ public class PlacarEletronico {
                 this.pontosCasa += 3;
                 System.out.println(timeCasa + " Marcou 3 pontos. É de trêsssss ");
             }
-        }else if(time=="Visitante"){
+        }else if(time.equalsIgnoreCase("Visitante")){
             if(tipo==1){
                 this.pontosVisitante += 1;
                 System.out.println(timeVisitante + " Marcou 1 ponto de lance livre ");

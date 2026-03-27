@@ -34,7 +34,8 @@ public class Avaliacao {
     public void adicionarQuestao(int num, String texto, float peso) {
         Questao q = new Questao(num, texto, peso);
         questoes.add(q);
-    }
+    }// Composição
+
 
     @Override
     public String toString() {

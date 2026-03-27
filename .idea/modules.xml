@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClasseDeAssociacao/ClasseDeAssociacao.iml" filepath="$PROJECT_DIR$/ClasseDeAssociacao/ClasseDeAssociacao.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClasseObjeto/ClasseObjeto.iml" filepath="$PROJECT_DIR$/ClasseObjeto/ClasseObjeto.iml" />
       <module fileurl="file://$PROJECT_DIR$/Encapsulamento/Encapsulamento.iml" filepath="$PROJECT_DIR$/Encapsulamento/Encapsulamento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClasseDeAssociacao/ExerciciosAssociacao/ExerciciosAssociacao.iml" filepath="$PROJECT_DIR$/ClasseDeAssociacao/ExerciciosAssociacao/ExerciciosAssociacao.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExercioTodoParte/ExercioTodoParte.iml" filepath="$PROJECT_DIR$/ExercioTodoParte/ExercioTodoParte.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/POO.iml" filepath="$PROJECT_DIR$/.idea/POO.iml" />
       <module fileurl="file://$PROJECT_DIR$/heranca/heranca.iml" filepath="$PROJECT_DIR$/heranca/heranca.iml" />
