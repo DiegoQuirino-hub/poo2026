@@ -1,0 +1,25 @@
+package SistemaVeiculo;
+
+public class CarroEletrico extends Veiculo {
+
+    private int autonomiaBateria; // em km
+
+    public CarroEletrico(String marca, String modelo, float velocidade, int autonomiaBateria) {
+        super(marca, modelo, velocidade);
+        this.autonomiaBateria = autonomiaBateria;
+    }
+
+    @Override
+    public void mover() {
+        System.out.println("Carro elétrico movendo-se silenciosamente");
+    }
+
+    @Override
+    public void abastecer() {
+        System.out.println("Recarregando bateria em posto de carga rápida");
+    }
+
+    public int getAutonomiaBateria() {
+        return autonomiaBateria;
+    }
+}
