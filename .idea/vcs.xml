@@ -4,5 +4,6 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ClasseObjeto" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Encapsulamento/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EstruturaDeDados" vcs="Git" />
   </component>
 </project>
